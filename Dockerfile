@@ -22,4 +22,4 @@ RUN	set -x \
 
 ENTRYPOINT [ "/bin/sh", "-c" ]
 
-CMD [ "/usr/bin/${URL}"]
+CMD [ "/usr/bin/curl"]
